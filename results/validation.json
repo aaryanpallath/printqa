@@ -1,0 +1,91 @@
+{
+  "pages": 530,
+  "wall_seconds": 60.1,
+  "analyze_seconds_per_page": 0.476,
+  "false_alarms": {
+    "clean_pages": 110,
+    "failed_checks": {},
+    "pages_failing_any": 0
+  },
+  "streaks": {
+    "0.005": {
+      "pages": 30,
+      "reported": 0,
+      "fails_spec": 0,
+      "median_density_contrast": null,
+      "median_position_error_mm": null
+    },
+    "0.01": {
+      "pages": 30,
+      "reported": 0,
+      "fails_spec": 0,
+      "median_density_contrast": null,
+      "median_position_error_mm": null
+    },
+    "0.02": {
+      "pages": 30,
+      "reported": 24,
+      "fails_spec": 15,
+      "median_density_contrast": 0.032,
+      "median_position_error_mm": 0.17
+    },
+    "0.04": {
+      "pages": 30,
+      "reported": 30,
+      "fails_spec": 29,
+      "median_density_contrast": 0.064,
+      "median_position_error_mm": 0.21
+    },
+    "0.08": {
+      "pages": 30,
+      "reported": 30,
+      "fails_spec": 30,
+      "median_density_contrast": 0.123,
+      "median_position_error_mm": 0.25
+    }
+  },
+  "banding": {
+    "0.005": {
+      "pages": 30,
+      "flagged": 0,
+      "median_period_error_pct": null
+    },
+    "0.01": {
+      "pages": 30,
+      "flagged": 4,
+      "median_period_error_pct": 7.5
+    },
+    "0.02": {
+      "pages": 30,
+      "flagged": 30,
+      "median_period_error_pct": 5.5
+    },
+    "0.04": {
+      "pages": 30,
+      "flagged": 30,
+      "median_period_error_pct": 7.5
+    }
+  },
+  "nozzles": {
+    "pages": 60,
+    "exact_pages": 60,
+    "true_positive": 150,
+    "false_positive": 0,
+    "false_negative": 0
+  },
+  "registration": {
+    "measurements": 240,
+    "rmse_um": [
+      0.94,
+      0.92
+    ],
+    "max_abs_error_um": 3.36,
+    "um_per_scan_pixel": 84.7,
+    "pass_fail_agreement": "237/240",
+    "disagreements_distance_from_limit_um": [
+      0.2,
+      0.4,
+      0.2
+    ]
+  }
+}
